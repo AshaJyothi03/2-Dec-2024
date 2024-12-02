@@ -1,0 +1,7 @@
+class test:
+    def __init__(self,*vec):
+        total=0
+        for i in vec:
+            total+=i
+        print(total)
+ob=test(12,3,4,50,6,7,8,9)
