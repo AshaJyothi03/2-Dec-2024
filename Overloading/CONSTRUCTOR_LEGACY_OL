@@ -1,0 +1,11 @@
+class test:
+    def __init__(self):
+        print("there are no argument")
+    def __init__(self,a,b):
+        print(a+b)
+    def __init__(self,a,b,c):
+        print(a+b+c)
+    def __init__(self,a,b,c,d):
+        print(a+b+c+d)
+
+obj=test(12,3,4,5)
