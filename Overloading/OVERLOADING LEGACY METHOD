@@ -1,0 +1,21 @@
+'''
+Q: can u implement method overloading directly in python?
+        A: NO
+            explain: if u write multiple methods with in the class with same name, last method is invoke,
+            rather than above methods
+        Solution: Use default and variable length argument
+'''
+
+
+class test:
+    def sum(self):
+        print("there are no argument")
+    def sum(self,a,b):
+        print(a+b)
+    def sum(self,a,b,c):
+        print(a+b+c)
+    def sum(self,a,b,c,d):
+        print(a+b+c+d)
+
+obj=test()
+obj.sum(10,20,30,40)
